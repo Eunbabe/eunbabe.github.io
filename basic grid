@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+a:hover {
+  font-weight: bold;
+
+}
+
+#hover1 {
+  display:none
+}
+
+a:hover #hover1 {
+ display:block;
+}
+
+</style>
+
+
+
+    </head>
+
+    <body>
+
+<!--this is where the header code will go!
+anchor it to the page so it doesn't move & is always displayed
+each recipe should have: picture, heading,
+clickable heading that goes to another page, tags that appear when you hover over it?-->
+<p>
+
+
+
+
+
+
+
+
+
+</p>
+
+
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-6 col-sm-3">
+        <img src ="pastatest.jpg" class="img-responsive" />
+          <a href="#">Summer-Ripe Tomato Fresh Pasta</a>
+        <div class="idek everything gets messed up if i move this!">
+          <div id="hover1">vegatarian, vegan</div>
+  </div>
+</div>
+
+    <div class="col-6 col-sm-3">Recipe 2</div>
+    <div class="col-6 col-sm-3">Recipe 3</div>
+    <div class="col-6 col-sm-3">Recipe 4</div>
+</div>
+
+
+
+      <!--
+
+      <div class="container">
+        <img src="http://lorempixel.com/500/500/" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">Hello World</div>
+        </div>
+      </div>
+
+Footer! email subscribe button and social media links-->
+
+    </body>

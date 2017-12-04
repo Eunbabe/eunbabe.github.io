@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      </head>
+<style>
+#SiteBody {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: white;
+        }
+
+.img-responsive {
+            display: block;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            overflow:hidden;
+        }
+
+a:hover {
+  font-weight: bold;
+}
+
+.show-me {
+  text-align:center;
+}
+.hidden {
+ display: none;
+ font-style: italic;
+ text-align:center;
+ color: #808080;
+ font-family: fantasy;
+}
+
+.show-me:hover .hidden {
+display:block;
+}
+
+</style>
+
+<body>
+<div id="SiteBody">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 col-sm-3">
+                <img class="img-responsive" src ="pasta.jpeg">
+                <div class="show-me"><a href="#">Summer-Ripe Tomato Fresh Pasta</a> <div class="hidden"><p>vegatarian, main</p></div>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-3">
+                <img class="img-responsive" src ="rolls.jpeg">
+                <div class="show-me"><a href="#">Cinnamon Rolls</a> <div class="hidden"><p>baking, dessert </p></div></div>
+            </div>
+
+            <div class="col-6 col-sm-3">
+                <img class="img-responsive" src ="soup.jpeg">
+                <div class="show-me"><a href="#">Slow Cooker Sausage Soup</a> <div class="hidden"><p>soup, slow cooker </p></div></div>
+            </div>
+
+              <div class="col-6 col-sm-3">
+                  <img class="img-responsive" src ="popcorn.jpeg">
+                  <div class="show-me"><a href="#">Homemade Popcorn</a> <div class="hidden"><p>snack, quick</p></div></div>
+              </div>
+
+    </div>
+</div>
+
+</body>
