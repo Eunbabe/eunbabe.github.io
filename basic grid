@@ -52,7 +52,7 @@ clickable heading that goes to another page, tags that appear when you hover ove
 <div class="container-fluid">
   <div class="row">
       <div class="col-6 col-sm-3">
-        <img src ="pastatest.jpg" class="img-responsive" />
+        <img src ="pastatest.jpg" class="img-responsive">
           <a href="#">Summer-Ripe Tomato Fresh Pasta</a>
         <div class="idek everything gets messed up if i move this!">
           <div id="hover1">vegatarian, vegan</div>

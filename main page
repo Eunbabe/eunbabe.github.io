@@ -47,7 +47,7 @@ display:block;
         <div class="row">
             <div class="col-6 col-sm-3">
                 <img class="img-responsive" src ="pasta.jpeg">
-                <div class="show-me"><a href="#">Summer-Ripe Tomato Fresh Pasta</a> <div class="hidden"><p>vegatarian, main</p></div>
+                <div class="show-me"><a href="#">Summer-Ripe Tomato Pasta</a> <div class="hidden"><p>vegatarian, main</p></div>
                 </div>
             </div>
 
