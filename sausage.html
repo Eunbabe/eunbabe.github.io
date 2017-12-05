@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+
+<style>
+    #SiteBody {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        background-color: white;
+            }
+
+
+            .container {
+                border-radius: 5px;
+                background-color: #C6DEFF;
+                padding: 20px;
+            }
+
+            input[type=text], select, textarea{
+              width: 100%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+              resize: vertical;
+            }
+
+            label {
+              padding: 12px 12px 12px 0;
+              display: inline-block;
+            }
+
+            .col-25 {
+              float: left;
+              width: 25%;
+              margin-top: 6px;
+              margin-left: 5%;
+            }
+
+            .col-75 {
+              float: left;
+              width: 65%;
+              margin-top: 6px;
+            }
+
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+            input[type=submit] {
+                background-color:#82CAFA;
+                color: black;
+                margin-left: 5%;
+                padding: 17px 30px;
+                border: none;
+                border-radius: 7px;
+                cursor: pointer;
+            }
+
+            h4 {
+              text-align: center;
+            }
+
+            .img-responsive {
+                position: absolute;
+                left: 50px;
+                        max-width: 40%%;
+                        width: auto;
+                        height: auto;
+                        overflow:hidden;
+                        margin: auto;
+                    }
+
+            h1 {
+                      text-align: center;
+                    }
+
+
+            .hidden {
+                     display: none;
+                     font-style: italic;
+                     text-align:center;
+                     color: #808080;
+                     font-family: fantasy;
+                    }
+
+            .w3-animate-zoom:hover .hidden {
+                    display:block;
+                    }
+
+.wrap {
+  position: absolute;
+  right: 50px;
+  left: 740px;
+}
+
+@keyframes example {
+  0%   {color: #0580FA;}
+    15%  {color: #0557FA  ;}
+    35% {color: #3D4AE5}
+    50%  {color: #5822F4  ;}
+    75% {color: #973EF6    ;}
+    100% {color: #C252FA   ;}
+  }
+
+  .animation{
+    animation-name: example;
+      animation-duration: 5s;
+      animation-iteration-count:infinite;
+  }
+
+</style>
+
+<body>
+<div id="SiteBody">
+
+  <div class="w3-animate-zoom"><h1> Slow Cooker Sausage and Vegatable Soup </h1><div class="hidden"><p>soup, slow cooker </p></div></div><br>
+  <img class="img-responsive" src ="sas.jpeg">
+
+  <div class="wrap">
+<h2> Ingredients </h2>
+
+<ul><li>1 tablespoon olive oil</li>
+  <li>1 (12.8-ounce) package smoked andouille sausage, thinly sliced</li>
+  <li>3 cloves garlic, minced</li>
+  <li>1 onion, diced</li>
+  <li> carrots, peeled and diced</li>
+  <li>2 stalks celery, diced</li>
+  <li>2 (15-ounce) cans Great Northern beans, drained and rinsed</li>
+  <li>1/2 teaspoon dried oregano</li>
+  <li>4 cups chicken broth</li>
+  <li>Kosher salt and freshly ground black pepper, to taste</li>
+  <li>3 cups baby spinach</li><br><br>
+
+
+    <h2> Method </h2>
+  <ul>
+  <li><p> Heat olive oil in a large skillet over medium high heat. Add sausage, and cook, stirring frequently, until lightly browned, about 3-4 minutes.</li>
+<li>Place sausage, garlic, onion, carrots, celery, beans, oregano and bay leaves into a 6-qt slow cooker. Stir in chicken broth and 2 cups water until well combined; season with salt and pepper, to taste.</li><br>
+<li>Cover and cook on low heat for 7-8 hours or high heat for 3-4 hours. Stir in spinach until wilted.</li></ul><br>
+<div class="animation"> Serve immediately.</div>
+</p></div>
+
+
+<div class="wrap"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h4>Feedback!</h4>
+  <div class="container">
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="country">Continent</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="continent">
+            <option value="australia">Oceania</option>
+            <option value="na">North America</option>
+            <option value="sa">South America</option>
+            <option value="europe">Europe (+UK)</option>
+            <option value="africa">Africa</option>
+            <option value="asia">Asia</option>
+            <option value="south one">Antartica</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Tell me what you're thinking!" style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</div>
+
+</div>
+</body>

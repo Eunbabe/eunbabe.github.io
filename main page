@@ -47,26 +47,27 @@ display:block;
         <div class="row">
             <div class="col-6 col-sm-3">
                 <img class="img-responsive" src ="pasta.jpeg">
-                <div class="show-me"><a href="#">Summer-Ripe Tomato Pasta</a> <div class="hidden"><p>vegatarian, main</p></div>
+                <div class="show-me"><a href="pasta.html" target="_blank">Summer-Ripe Tomato Pasta Sauce</a> <div class="hidden"><p>vegatarian, main</p></div>
                 </div>
             </div>
 
             <div class="col-6 col-sm-3">
                 <img class="img-responsive" src ="rolls.jpeg">
-                <div class="show-me"><a href="#">Cinnamon Rolls</a> <div class="hidden"><p>baking, dessert </p></div></div>
+                <div class="show-me"><a href="rolls.html" target="_blank">Cinnamon Rolls</a> <div class="hidden"><p>baking, dessert </p></div></div>
             </div>
 
             <div class="col-6 col-sm-3">
                 <img class="img-responsive" src ="soup.jpeg">
-                <div class="show-me"><a href="#">Slow Cooker Sausage Soup</a> <div class="hidden"><p>soup, slow cooker </p></div></div>
+                <div class="show-me"><a href="sausage.html" target="_blank">Slow Cooker Sausage Soup</a> <div class="hidden"><p>soup, slow cooker </p></div></div>
             </div>
 
               <div class="col-6 col-sm-3">
                   <img class="img-responsive" src ="popcorn.jpeg">
-                  <div class="show-me"><a href="#">Homemade Popcorn</a> <div class="hidden"><p>snack, quick</p></div></div>
+                  <div class="show-me"><a href="#" target="_blank">Homemade Popcorn</a> <div class="hidden"><p>snack, quick</p></div></div>
               </div>
 
     </div>
-</div>
 
+
+</div>
 </body>
