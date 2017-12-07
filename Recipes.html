@@ -10,7 +10,6 @@
   background: url("Autumn.jpg") no-repeat center center fixed;
     background-size: cover;
     background-position: center;
-    font-family: 'Satisfy', cursive;
  }
 #SiteBody {
     margin-left: 5%;
@@ -18,9 +17,7 @@
     margin-top: 2%;
     margin-bottom: 2%;
     font-family: 'Satisfy', cursive;
-    bottom: 0; 
-    text-align: right;
-    color: darkred;
+
         }
 
 .img-responsive {
@@ -37,13 +34,13 @@ a:hover {
 
 .show-me {
   text-align:center;
-  color: orange;
+  color: maroon;
 }
 .hidden {
  display: none;
  font-family: 'Satisfy', cursive;
  text-align:center;
- color: gold;
+ color: maroon;
 }
 
 .show-me:hover .hidden {
@@ -54,7 +51,7 @@ display:block;
               overflow: hidden;
               background-color: none;
               font-color: crimson;
-              font-size: 
+              font-size: 7
             }
 
 .navbar a {
@@ -77,14 +74,37 @@ background-color: none;
 
   <div class="navbar">
     <a href="main.html">Main</a>
-    <a href="Recipes.html">Recipes</a>
-    <a href="About.html">About</a>
-    <a href="contact.html">Contact</a>
+    <a href="#recipes.html">Recipes</a>
+    <a href="#about.html">About</a>
+    <a href="#contact.html">Contact</a>
+
   </div><br>
-<p>
-  <font size=6.5>
-  <p style=" position: absolute; bottom: 220px; right: 0; width: 50%; text-align: right;">Welcome to InSeason, your recipe arsenal for the best combination of ingredients that grow in each season to give you the most delicious meal!
-  </p>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 col-sm-3">
+                <img class="img-responsive" src ="pasta.jpeg">
+                <div class="show-me"><a href="pasta.html" target="_blank">Summer-Ripe Tomato Pasta Sauce</a> <div class="hidden"><p>vegatarian, main</p></div>
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-3">
+                <img class="img-responsive" src ="rolls.jpeg">
+                <div class="show-me"><a href="rolls.html" target="_blank">Cinnamon Rolls</a> <div class="hidden"><p>baking, dessert </p></div></div>
+            </div>
+
+            <div class="col-6 col-sm-3">
+                <img class="img-responsive" src ="soup.jpeg">
+                <div class="show-me"><a href="sausage.html" target="_blank">Slow Cooker Sausage Soup</a> <div class="hidden"><p>soup, slow cooker </p></div></div>
+            </div>
+
+              <div class="col-6 col-sm-3">
+                  <img class="img-responsive" src ="popcorn.jpeg">
+                  <div class="show-me"><a href="popcorn.html" target="_blank">Homemade Popcorn</a> <div class="hidden"><p>snack, quick</p></div></div>
+              </div>
+
+    </div>
+
 
 </div>
 </body>
