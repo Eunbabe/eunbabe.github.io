@@ -1,138 +1,174 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
 
 <style>
-    #SiteBody {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        background-color: white;
-            }
+body {
+  background-color: indianred;
+}
+#SiteBody {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: indianred;
+    font-family: 'Satisfy', cursive;
+    
+        }
 
-
-            .container {
-                border-radius: 5px;
-                background-color: #C6DEFF;
-                padding: 20px;
-            }
-
-            input[type=text], select, textarea{
-              width: 100%;
-              padding: 12px;
-              border: 1px solid #ccc;
-              border-radius: 4px;
-              box-sizing: border-box;
-              resize: vertical;
-            }
-
-            label {
-              padding: 12px 12px 12px 0;
-              display: inline-block;
-            }
-
-            .col-25 {
-              float: left;
-              width: 25%;
-              margin-top: 6px;
-              margin-left: 5%;
-            }
-
-            .col-75 {
-              float: left;
-              width: 65%;
-              margin-top: 6px;
-            }
-
-            .row:after {
-              content: "";
-              display: table;
-              clear: both;
-            }
-
-            input[type=submit] {
-                background-color:#82CAFA;
-                color: black;
-                margin-left: 5%;
-                padding: 17px 30px;
-                border: none;
-                border-radius: 7px;
-                cursor: pointer;
-            }
-
-            h4 {
-              text-align: center;
-            }
-
-            .img-responsive {
-                position: absolute;
-                left: 50px;
-                        max-width: 40%%;
-                        width: auto;
-                        height: auto;
-                        overflow:hidden;
-                        margin: auto;
-                    }
-
-            h1 {
-                      text-align: center;
-                    }
-
-
-            .hidden {
-                     display: none;
-                     font-style: italic;
-                     text-align:center;
-                     color: #808080;
-                     font-family: fantasy;
-                    }
-
-            .w3-animate-zoom:hover .hidden {
-                    display:block;
-                    }
-
-.wrap {
-  position: absolute;
-  right: 50px;
-  left: 740px;
+.container {
+    border-radius: 5px;
+    background-color: brown;
+    padding: 20px;
 }
 
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  margin-left: 5%;
+}
+
+.col-75 {
+  float: left;
+  width: 65%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=submit] {
+    background-color:maroon;
+    color: black;
+    margin-left: 5%;
+    padding: 17px 30px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    margin: auto;
+    width: 40%;
+    display: block;
+}
+
+
+.img-responsive {
+            display: block;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            overflow:hidden;
+        }
+p1 {
+  font-family: 'Satisfy', cursive;
+  font-weight: lighter;
+}
+
+p2 {
+  font-family: 'Satisfy', cursive;
+  font-weight: bold;
+}
+
+.content{
+  font-family: 'Satisfy', cursive;
+  text-align: right;
+}
+
+p3 span {
+  font-family: 'Satisfy', cursive;
+  background-color:brown;
+  padding: 10px;
+  text-align: right;
+}
+
+h2 {
+  font-family: 'Satisfy', cursive;
+}
+h3 {
+  font-family: 'Satisfy', cursive;
+}
+
+h4 {
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+}
+
+.hidden {
+ display: none;
+ font-family: 'Satisfy', cursive;
+ text-align:center;
+ color: black;
+ font-family: fantasy;
+}
+
+.w3-animate-zoom:hover .hidden {
+display:block;
+}
+
+
 @keyframes example {
-  0%   {color: #0580FA;}
-    15%  {color: #0557FA  ;}
-    35% {color: #3D4AE5}
-    50%  {color: #5822F4  ;}
-    75% {color: #973EF6    ;}
-    100% {color: #C252FA   ;}
+  0%   {color: black;}
+    15%  {color: #4452AD  ;}
+    35% {color: #0AC3F9}
+    50%  {color: #AB44AD;}
+    75% {color: #E5223A  ;}
+    100% {color: #8F0911  ;}
   }
 
-  .animation{
-    animation-name: example;
-      animation-duration: 5s;
-      animation-iteration-count:infinite;
+.w3-animate-zoom {
+  animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count:infinite;
   }
 
+       .navbar {
+                      overflow: hidden;
+                      background-color: none;
+                      font-size: 60px
+                    }
 
-          .navbar {
-                        overflow: hidden;
-                        background-color: #84B5F9;
-                      }
+      .navbar a {
+                      float: left;
+                      display: block;
+                      color: black;
+                      font-size: 60px
+                      text-align: center;
+                      padding: 15px;
+                      text-decoration: none;
+.navbar a:hover {
+  background-color: none;
+}
 
-        .navbar a {
-                        float: left;
-                        display: block;
-                        color: #f2f2f2;
-                        text-align: center;
-                        padding: 15px;
-                        text-decoration: none;
-                      }
-  .navbar a:hover {
-    background-color: #D0E1F9;
-  }
 </style>
 
 <body>
@@ -140,12 +176,13 @@
 
   <div class="navbar">
     <a href="main.html">Main</a>
-    <a href="#about.html">About</a>
-    <a href="#contact.html">Contact</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
   </div><br>
 
   <div class="w3-animate-zoom"><h1> Slow Cooker Sausage and Vegatable Soup </h1><div class="hidden"><p>soup, slow cooker </p></div></div><br>
-  <img class="img-responsive" src ="sas.jpeg">
+  <img class="img-circle" src ="saus.jpeg">
 
   <div class="wrap">
 <h2> Ingredients </h2>
@@ -170,7 +207,6 @@
 <li>Cover and cook on low heat for 7-8 hours or high heat for 3-4 hours. Stir in spinach until wilted.</li></ul><br>
 <div class="animation"> Serve immediately.</div>
 </p></div>
-
 
 <div class="wrap"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <h4>Feedback!</h4>
